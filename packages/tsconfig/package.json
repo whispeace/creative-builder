@@ -1,8 +1,8 @@
 {
   "name": "tsconfig",
-  "description": "Shared tsconfig",
   "version": "0.0.0",
   "private": true,
+  "description": "Shared tsconfig",
   "publishConfig": {
     "access": "public"
   }
