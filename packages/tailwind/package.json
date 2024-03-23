@@ -4,7 +4,7 @@
   "description": "Shared TailwindCSS configuration",
   "private": true,
   "type": "module",
-  "publishConfig": {
-    "access": "public"
+  "devDependencies": {
+    "tailwindcss": "3.4.1"
   }
 }

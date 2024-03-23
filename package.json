@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "description": "Example pnpm monorepo",
   "scripts": {
-    "web#dev": "pnpm run --filter web dev",
-    "web#build": "pnpm run --filter web build",
-    "web#preview": "pnpm run --filter web preview",
-    "web-vue#dev": "pnpm run --filter web-vue dev",
-    "web-vue#build": "pnpm run --filter web-vue build",
-    "web-vue#preview": "pnpm run --filter web-vue preview"
+    "carousel-builder#dev": "pnpm run --filter carousel-builder dev",
+    "carousel-builder#build": "pnpm run --filter carousel-builder build",
+    "carousel-builder#preview": "pnpm run --filter carousel-builder preview",
+    "vpaid-builder#dev": "pnpm run --filter vpaid-builder dev",
+    "vpaid-builder#build": "pnpm run --filter vpaid-builder build",
+    "vpaid-builder#preview": "pnpm run --filter vpaid-builder preview"
   },
   "keywords": [
     "momorepo",
@@ -17,7 +17,8 @@
     "typescript",
     "vite",
     "vue",
-    "tailwindcss"
+    "tailwindcss",
+    "primevue"
   ],
   "packageManager": "pnpm@8.15.5",
   "devDependencies": {
