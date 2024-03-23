@@ -1,0 +1,27 @@
+{
+  "name": "pnpm-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Example pnpm monorepo",
+  "scripts": {
+    "web#dev": "pnpm run --filter web dev",
+    "web#build": "pnpm run --filter web build",
+    "web#preview": "pnpm run --filter web preview",
+    "web-vue#dev": "pnpm run --filter web-vue dev",
+    "web-vue#build": "pnpm run --filter web-vue build",
+    "web-vue#preview": "pnpm run --filter web-vue preview"
+  },
+  "keywords": [
+    "momorepo",
+    "pnpm",
+    "typescript",
+    "vite",
+    "vue",
+    "tailwindcss"
+  ],
+  "packageManager": "pnpm@8.15.5",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "5.4.3"
+  }
+}

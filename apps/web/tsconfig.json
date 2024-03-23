@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "tsconfig/vite.json",
+  "include": ["vite.config.ts", "src"],
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@utils": ["../../packages/utils"]
+    }
+  }
+}
